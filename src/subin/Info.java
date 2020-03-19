@@ -64,23 +64,19 @@ class Character{
     }
 }
 public class Info{
-    static ArrayList<Player> playerList;
     public static void createUser(String nameTmp) throws IOException {
         String nameEncode=URLEncoder.encode(nameTmp,"UTF-8");
-        String urlTmp="https://api.neople.co.kr/cy/players?nickname="+ nameEncode +"&wordType=%3CwordType%3E&apikey=tqaHURDFgZyZ9NL3j3Lq08GuudRMiRNc";
+        String urlTmp="https://api.neople.co.kr/cy/players?nickname="+ nameTmp +"&wordType=%3CwordType%3E&apikey=tqaHURDFgZyZ9NL3j3Lq08GuudRMiRNc";
         JSONObject jo=JSP.readJsonFromUrl(urlTmp);
         JSONArray parse_item =(JSONArray)jo.get("rows");
         JSONObject item;
-        for(int i=0;i<parse_item.size();i++){
-            item=(JSONObject) parse_item.get(i);
+            item=(JSONObject) parse_item.get(0);
             Long grade= (Long)item.get("grade");
             String name=(String)item.get("nickname");
             String id=(String)item.get("playerId");
 
             Player p = new Player(grade,name,id);
-            playerList.add(p);
-//            System.out.println(p);
-        }
+            System.out.println(p);
     }
     public static void main(String[] args) throws IOException {
         System.out.println("닉네임을 입력해주세요");

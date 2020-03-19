@@ -17,8 +17,7 @@
 <body>
     <%
       UserDAO userDAO= new UserDAO();
-      String userID = request.getParameter("userID");
-      int result = userDAO.login(userID,user.getUserPassword());
+      int result = userDAO.login(user.getUserID(),user.getUserPassword());
       if(result==1){
           PrintWriter script = response.getWriter();
           script.println("<script>");

@@ -12,7 +12,7 @@ public class UserDAO {
 
     public UserDAO(){
         try{
-            String dbURL="jdbc:mysql:///localhost:3306/bbs"; //DEEP이라는 데이터베이스에접속
+            String dbURL="jdbc:mysql://localhost:3306/bbs?characterEncoding=UTF-8&serverTimezone=UTC"; //DEEP이라는 데이터베이스에접속
             String dbID="subin";
             String dbPassword="990902";
             Class.forName("com.mysql.jdbc.Driver");//mysql드라이버

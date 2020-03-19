@@ -8,23 +8,19 @@
   <component name="ChangeListManager">
     <list default="true" id="93d29fbe-8d20-4232-bec4-7435a0648cb0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/user/Character.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/user/Info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/user/JSP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/user/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/user/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/subin/Info.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/subin/Info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/subin/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/subin/Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/user/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/user/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/loginAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/loginAction.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/result.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jsp/user/Character.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jsp/user/Info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jsp/user/JSP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jsp/user/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jsp/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jsp/user/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp/subin/Info.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jsp/subin/Info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp/subin/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jsp/subin/Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/jsp/user/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jsp/user/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subin/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/subin/Info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/user/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/loginAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/loginAction.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,6 +93,19 @@
     <configuration name="Character" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Character" />
       <module name="jsp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Info (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="subin.Info" />
+      <module name="jsp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="subin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -196,6 +205,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Info (1)" />
         <item itemvalue="Application.Info" />
         <item itemvalue="Application.Player" />
         <item itemvalue="Application.Character" />
@@ -218,7 +228,9 @@
       <workItem from="1584445165045" duration="5595000" />
       <workItem from="1584511152092" duration="539000" />
       <workItem from="1584511711106" duration="10482000" />
-      <workItem from="1584579209589" duration="11180000" />
+      <workItem from="1584579209589" duration="11425000" />
+      <workItem from="1584600873722" duration="1001000" />
+      <workItem from="1584604242624" duration="2430000" />
     </task>
     <servers />
   </component>
@@ -237,5 +249,36 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/subin/Info.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/user/UserDAO.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/loginAction.jsp</url>
+          <line>19</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/user/UserDAO.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="e" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
