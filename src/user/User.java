@@ -1,7 +1,8 @@
 package user;
 
-public abstract class User {
-    public String playerid;
-    public String nickname;
-    public int grade;
+public class User {
+    private Long grade;
+    private String nickname;
+    private String playerId;
+
 }

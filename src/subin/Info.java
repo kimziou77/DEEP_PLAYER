@@ -8,7 +8,6 @@ import java.net.URL;
 import java.net.URLEncoder;
 import java.nio.charset.Charset;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 class JSP {
@@ -36,28 +35,14 @@ class JSP {
         }
         return json;
     }
-
-    public static String encodeURL(String userName){
-        String result = null;
-        String url = null;
-        try{
-            url = "https://api.neople.co.kr/cy/players?nickname="+ userName +"&wordType=%3CwordType%3E&apikey=tqaHURDFgZyZ9NL3j3Lq08GuudRMiRNc";
-            result=URLEncoder.encode(url,"UTF-8");
-        }catch (UnsupportedEncodingException e) {
-            result = url;
-        }
-        return result;
-    }
-    //https://kingpodo.tistory.com/11?category=799293
-    //json 여기서부터
 }
 class Character{
     public static void main(String[] args) throws IOException {
         System.out.println("캐릭터이름을 입력해주세요");
         Scanner sc= new Scanner(System.in);
         String characterName = sc.nextLine(); //System.out.println(nickName);
-        String characterEncode = URLEncoder.encode(characterName,"UTF-8");
 
+        String characterEncode = URLEncoder.encode(characterName,"UTF-8");
         String url="https://api.neople.co.kr/cy/characters?apikey=tqaHURDFgZyZ9NL3j3Lq08GuudRMiRNc";
         JSONObject character=JSP.readJsonFromUrl(url);
 
@@ -91,6 +76,7 @@ public class Info{
             Long grade= (Long)item.get("grade");
             String name=(String)item.get("nickname");
             String id=(String)item.get("playerId");
+
             Player p = new Player(grade,name,id);
             playerList.add(p);
 //            System.out.println(p);

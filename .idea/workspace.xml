@@ -6,7 +6,30 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93d29fbe-8d20-4232-bec4-7435a0648cb0" name="Default Changelist" comment="" />
+    <list default="true" id="93d29fbe-8d20-4232-bec4-7435a0648cb0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/user/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/join.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/joinAction.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/loginAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/subin/Character.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/subin/Info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/subin/JSP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/subin/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/user/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/result.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp/subin/Character.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp/subin/Info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp/subin/JSP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp/subin/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jsp/user/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subin/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/subin/Info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/result.jsp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +43,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -36,6 +62,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZFN35EUyW3SxoS0TXf89yFjKpK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -193,11 +220,39 @@
       <workItem from="1584430714073" duration="3494000" />
       <workItem from="1584445165045" duration="5595000" />
       <workItem from="1584511152092" duration="539000" />
-      <workItem from="1584511711106" duration="10185000" />
+      <workItem from="1584511711106" duration="10482000" />
+      <workItem from="1584579209589" duration="10166000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/user/UserDAO.java</url>
+          <line>41</line>
+          <properties class="user.UserDAO" method="join">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

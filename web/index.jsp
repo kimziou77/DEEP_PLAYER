@@ -1,20 +1,13 @@
-<%--
-  Created by IntelliJ IDEA.
-  user: souvenir
-  Date: 2020-03-17
-  Time: 오후 4:38
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@page import="java.sql.DriverManager"%>
 <%@page import="java.sql.Connection"%>
 <%@ page import="java.sql.SQLException" %>
-
+<!DOCTYPE html>
 <html>
   <head>
-    <title>$Title$</title>
-    <Script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <Script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <title>DEEP_PLAYER</title>
+    <meta name="viewport" content="width=device-width",initial-scale="1">
+    <link rel="stylesheet" href="css/bootstrap.css">
   </head>
   <body>
   <%
@@ -47,9 +40,11 @@
       }
     }
 
-
-
   %>
+  <script>
+    location.href='login.jsp';
+  </script>
+
 <%-- "control + R"--%>
   사이퍼즈고인물측정기입니다
   <div>
@@ -60,10 +55,6 @@
     <div>
       <label>닉네임</label>
       <input name="nickName" type="text" />
-    </div>
-    <div>
-      <label>비밀번호</label>
-      <input name="b" type="text" />
     </div>
     <button type="submit">측정</button>
   </form>
