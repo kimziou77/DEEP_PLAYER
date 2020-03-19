@@ -1,5 +1,6 @@
-<%@ page language="java" import="user.Info" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" import="subin.Info" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ page import="java.io.PrintWriter" %>
+
 <%
     // request 객체로부터 파라미터를 가져옴.
     String nickName = request.getParameter("nickName");

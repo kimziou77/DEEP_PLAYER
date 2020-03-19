@@ -12,7 +12,7 @@ public class UserDAO {
 
     public UserDAO(){
         try{
-            String dbURL="jdbc:mysql:///localhost:3306/DEEP"; //DEEP이라는 데이터베이스에접속
+            String dbURL="jdbc:mysql:///localhost:3306/bbs"; //DEEP이라는 데이터베이스에접속
             String dbID="subin";
             String dbPassword="990902";
             Class.forName("com.mysql.jdbc.Driver");//mysql드라이버
@@ -44,9 +44,9 @@ public class UserDAO {
         String SQL = "INSERT INTO USER VALUES (?,?,?)";
         try{
             pstmt= conn.prepareStatement(SQL);
-            pstmt.setString(1,user.getGrade().toString());
-            pstmt.setString(2,user.getNickname());
-            pstmt.setString(3,user.getPlayerId());
+            pstmt.setString(1,user.getUserID().toString());
+            pstmt.setString(2,user.getUserPassword());
+            pstmt.setString(3,user.getUserGender());
             return pstmt.executeUpdate();
         }catch(Exception e){
             e.printStackTrace();

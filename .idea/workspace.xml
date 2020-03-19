@@ -7,28 +7,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93d29fbe-8d20-4232-bec4-7435a0648cb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/user/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/join.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/joinAction.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/loginAction.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/subin/Character.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/subin/Info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/subin/JSP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/subin/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/user/Character.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/user/Info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/user/JSP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/user/Player.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/user/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/user/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/user/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/loginAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/loginAction.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/result.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jsp/subin/Character.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jsp/subin/Info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jsp/subin/JSP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jsp/subin/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp/user/Character.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp/user/Info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp/user/JSP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp/user/Player.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/jsp/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jsp/user/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/subin/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/subin/Info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp/user/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jsp/user/UserDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/result.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/loginAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/loginAction.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -221,7 +218,7 @@
       <workItem from="1584445165045" duration="5595000" />
       <workItem from="1584511152092" duration="539000" />
       <workItem from="1584511711106" duration="10482000" />
-      <workItem from="1584579209589" duration="10166000" />
+      <workItem from="1584579209589" duration="11180000" />
     </task>
     <servers />
   </component>
@@ -240,19 +237,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/user/UserDAO.java</url>
-          <line>41</line>
-          <properties class="user.UserDAO" method="join">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

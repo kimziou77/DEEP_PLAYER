@@ -3,7 +3,8 @@
 <%@ page import="java.io.PrintWriter"%> <%--자바스크립트문장을작성하기위해사용--%>
 <% request.setCharacterEncoding("UTF-8");%>
 <jsp:useBean id="user" class="user.User" scope="page"/>
-<jsp:setProperty name="user" property="nickname"/>
+<jsp:setProperty name="user" property="userID"/>
+<jsp:setProperty name="user" property="userPassword"/>
 
 <html>
 <head>
@@ -16,7 +17,8 @@
 <body>
     <%
       UserDAO userDAO= new UserDAO();
-      int result = userDAO.cyphers(user.getNickname());
+      String userID = request.getParameter("userID");
+      int result = userDAO.login(userID,user.getUserPassword());
       if(result==1){
           PrintWriter script = response.getWriter();
           script.println("<script>");
@@ -30,7 +32,7 @@
           script.println("history.back()");
           script.println("</script>");
       }
-      else if(result== -1){//존재하지않는 아이디
+      else if(result==-1){//존재하지않는 아이디
           PrintWriter script = response.getWriter();
           script.println("<script>");
           script.println("alert('존재하지않는 아이디입니다')");
