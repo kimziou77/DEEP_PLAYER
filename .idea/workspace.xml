@@ -7,21 +7,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93d29fbe-8d20-4232-bec4-7435a0648cb0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_simple_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/subin/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jsp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/subin/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/subin/Character.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/subin/Info.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/subin/Info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/subin/JSP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/subin/JSP.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/subin/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/subin/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/user/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/user/UserDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/loginAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/loginAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/result.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp/subin/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jsp/subin/Character.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/jsp/subin/Info.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jsp/subin/Info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp/subin/JSP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jsp/subin/JSP.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/jsp/subin/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jsp/subin/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jsp/user/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jsp/user/UserDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/subin/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/subin/Info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/UserDAO.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/loginAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/loginAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/join.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/joinAction.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/loginAction.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/result.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,9 +65,10 @@
   <component name="ProjectId" id="1ZFN35EUyW3SxoS0TXf89yFjKpK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../json-simple-1.1.1.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/json-simple-1.1.1.jar!/" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -74,6 +83,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\souvenir\Desktop\jsp\lib" />
       <recent name="C:\Users\souvenir\Desktop\jsp\web" />
     </key>
   </component>
@@ -230,7 +240,8 @@
       <workItem from="1584511711106" duration="10482000" />
       <workItem from="1584579209589" duration="11425000" />
       <workItem from="1584600873722" duration="1001000" />
-      <workItem from="1584604242624" duration="2430000" />
+      <workItem from="1584604242624" duration="4561000" />
+      <workItem from="1584667387782" duration="2535000" />
     </task>
     <servers />
   </component>
@@ -255,7 +266,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/subin/Info.java</url>
-          <line>69</line>
+          <line>71</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -264,7 +275,7 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/web/loginAction.jsp</url>
+          <url>file://$PROJECT_DIR$/../TUTORIAL/web/WEB-INF/loginAction.jsp</url>
           <line>19</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
