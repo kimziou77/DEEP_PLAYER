@@ -3,6 +3,34 @@ public class Player{
     long level;
     String nickName;
     String playerId;
+    long winCnt;
+    long loseCnt;
+    long stopCnt;
+
+    public long getWinCnt() {
+        return winCnt;
+    }
+
+    public void setWinCnt(long winCnt) {
+        this.winCnt = winCnt;
+    }
+
+    public long getLoseCnt() {
+        return loseCnt;
+    }
+
+    public void setLoseCnt(long loseCnt) {
+        this.loseCnt = loseCnt;
+    }
+
+    public long getStopCnt() {
+        return stopCnt;
+    }
+
+    public void setStopCnt(long stopCnt) {
+        this.stopCnt = stopCnt;
+    }
+
 
     public long getLevel() {
         return level;
@@ -33,6 +61,7 @@ public class Player{
         this.nickName=nickName;
         this.playerId=playerId;
     }
+
     public String toString(){
         return  "급수 : "+level+"\n"+
                 "닉네임 : "+nickName+"\n"+

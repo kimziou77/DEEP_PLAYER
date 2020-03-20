@@ -3,8 +3,8 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-import user.User;
 
+import java.util.*;
 import java.io.*;
 import java.net.URL;
 import java.net.URLEncoder;
@@ -60,8 +60,6 @@ class Character{
                 break;
             }
         }
-        //System.out.println(jo);
-        //URL url = new URL("https://api.neople.co.kr/cy/players?nickname="+ nickName +"&wordType=%3CwordType%3E&apikey=tqaHURDFgZyZ9NL3j3Lq08GuudRMiRNc");
         System.out.println("--------------------");
     }
 }
@@ -77,10 +75,59 @@ public class Info{
             String name=(String)item.get("nickname");
             String id=(String)item.get("playerId");
 
-
             Player p = new Player(grade,name,id);
 //            System.out.println(p);
         return p;
+    }
+    public static HashMap<String, Long> moreInfo(String playerId) throws IOException {
+        String API = "tqaHURDFgZyZ9NL3j3Lq08GuudRMiRNc";
+        String URL ="https://api.neople.co.kr/cy/players/"+playerId+"?apikey="+API;
+        JSONObject jo=JSP.readJsonFromUrl(URL);
+        JSONArray parse_item =(JSONArray)jo.get("records");
+        JSONObject rating;
+        JSONObject normal;
+//        JSONObject [] game;
+        rating = (JSONObject)parse_item.get(0);
+        normal = (JSONObject)parse_item.get(1);
+        Long winCnt = (Long)normal.get("winCount");
+        Long loseCnt= (Long)normal.get("loseCount");
+        Long stopCnt= (Long)normal.get("stopCount");
+        HashMap<String,Long> m = new HashMap<>();
+
+        m.put("win",winCnt);
+        m.put("lose",loseCnt);
+        return m;
+    }
+
+    enum PP{GO, NEWBIE, SEMI_GO};
+
+    public static PP judge(String playerId) throws IOException {
+            HashMap<String,Long> m = moreInfo(playerId);
+//            if(player.getLevel()>=100)
+//                return PP.GO;
+//            else
+//                return PP.NEWBIE;
+//        }
+//        PP result=PP.NEWBIE;
+//        result=judge(p);
+//        switch(result){
+//            case GO:{
+//                script.println("<script>");
+////            script.println("location.href = 'GO.jsp'");
+//                script.println("</script>");
+//            }
+//            case SEMI_GO:{
+//                script.println("<script>");
+////            script.println("location.href = 'SEMI_GO.jsp'");
+//                script.println("</script>");
+//            }
+//            case NEWBIE:{
+//                script.println("<script>");
+////            script.println("location.href = 'NEWBIE.jsp'");
+//                script.println("</script>");
+//            }
+//        }
+        return PP.NEWBIE;
     }
     public static void main(String[] args) throws IOException {
         System.out.println("닉네임을 입력해주세요");

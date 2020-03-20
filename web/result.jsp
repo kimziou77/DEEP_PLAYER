@@ -1,18 +1,23 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="java.io.PrintWriter" %>
 <%@ page import="subin.*" %>
+<%@ page import="java.util.*" %>
 <% request.setCharacterEncoding("UTF-8");%>
 <%
-    // request 객체로부터 파라미터를 가져옴.
+    PrintWriter script = response.getWriter();
+
     String nickName = request.getParameter("nickName");
     Player p = Info.createUser(nickName);
+    HashMap<String,Long> more_info = Info.moreInfo(p.getPlayerId());
+    Long win = more_info.get("win");
+    Long lose = more_info.get("lose");
+    double score = Math.round((win.doubleValue()/(win.doubleValue()+lose.doubleValue()))*100);
 
-    PrintWriter script = response.getWriter();
-    script.println("<script>");
-    script.println("alert('" + nickName + "님 어서오세용.')");
+    String result= "뉴비";
+//    script.println("<script>");
+//    script.println("alert('" + nickName + "님 어서오세용.')");
+//    script.println("</script>");
     System.out.println(p);
-//    script.println("location.href = 'index.jsp'");
-    script.println("</script>");
     //ctl alt l
 %>
 <%--//출처 https://cloudstudying.kr/lectures/232--%>
@@ -24,15 +29,33 @@
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
-<%=nickName%>의 정보
-<div>
-    급수 : <%=p.getLevel()%>
-</div>
+<p>
+        <%=nickName%>의 정보
+<%--    <% include file="index.jsp"%>--%>
+
 <div>
     닉네임 : <%=p.getNickName()%>
 </div>
 <div>
-    PlayerId : <%=p.getPlayerId()%>
+    레벨 : <%=p.getLevel()%>급
 </div>
+<%--<div>--%>
+<%--    PlayerId : <%=p.getPlayerId()%>--%>
+<%--</div>--%>
+<div>
+    win : <%=win%>
+</div>
+<div>
+    lose : <%=lose%>
+</div>
+<div>
+    승률 : <%=score%> %
+</div>
+<div>
+    상태 : <%=result%>
+</div>
+</p>
+
+
 </body>
 </html>

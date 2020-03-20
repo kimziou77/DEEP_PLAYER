@@ -13,13 +13,11 @@
 <%-- "control + R"--%>
   사이퍼즈고인물측정기입니다
   <div>
-    <h1>Form</h1>
-    <p>폼을 통해 데이터 전송해봅시다.</p>
+    <h3>Check your DEEP_Capability</h3>
   </div>
   <form action="result.jsp" method="post">
     <div>
-      <label>닉네임</label>
-      <input name="nickName" type="text" />
+      <input name="nickName" type="text" placeholder="닉네임입력"/>
     </div>
     <button type="submit">측정</button>
   </form>
