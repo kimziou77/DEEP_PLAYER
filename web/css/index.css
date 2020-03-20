@@ -1,0 +1,16 @@
+@font-face{
+    font-family: BMHANNAAir;
+    src: url(../font/BMHANNAAir_ttf.ttf);
+}
+body{
+    background-color: beige;
+}
+.upper{
+    text-transform: uppercase;
+}
+.font{
+    font-family: BMHANNAAir;
+}
+.gray{
+    color: rgba(180, 180, 180, 0.363);
+}
