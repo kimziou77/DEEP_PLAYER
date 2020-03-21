@@ -1,9 +1,14 @@
 package subin;
 
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.util.HashMap;
+import java.util.Set;
+
+import static subin.Character.createCharacterInfo;
 
 public class PlayerDAO {
     private Connection conn;//데이터베이스에 접근하기위한 객체
@@ -104,5 +109,26 @@ public class PlayerDAO {
         }
 //        return "DB_error";//데이터베이스오류
         return p;
+    }
+
+    public int create_character_DB() throws IOException {//DB에 있는 유저를 불러온다.
+        //데이터개수만큼
+        HashMap<String,String> character = createCharacterInfo ();
+        Set<String> character_keySet = character.keySet();
+        for(String id : character_keySet){
+            String characterId = id;
+            String characterName = character.get(characterId);
+            String SQL = "INSERT INTO character_ VALUES (?,?)";
+            try{
+                pstmt= conn.prepareStatement(SQL);
+
+                pstmt.setString(1,characterId);
+                pstmt.setString(2,characterName);
+                pstmt.executeUpdate();
+            }catch(Exception e){
+                e.printStackTrace();
+            }
+        }
+        return -1;// Database Error
     }
 }

@@ -86,18 +86,25 @@ public class Info {
         JSONArray parse_item = (JSONArray) jo.get("records");
         JSONObject rating;
         JSONObject normal;
+        HashMap<String, Long> m = new HashMap<>();
+
 //        JSONObject [] game;
         if (parse_item.size() > 1) {
             rating = (JSONObject) parse_item.get(0);
             normal = (JSONObject) parse_item.get(1);
-        } else {
+        } else if(parse_item.size()==1) {
             normal = (JSONObject) parse_item.get(0);
+        }else{
+            long i =0;
+            m.put("win", i);
+            m.put("lose", i);
+            m.put("stop", i);
+            return m;
         }
 
         Long winCnt = (Long) normal.get("winCount");
         Long loseCnt = (Long) normal.get("loseCount");
         Long stopCnt = (Long) normal.get("stopCount");
-        HashMap<String, Long> m = new HashMap<>();
 
         m.put("win", winCnt);
         m.put("lose", loseCnt);
@@ -116,30 +123,23 @@ public class Info {
     }
 }
 
-/*
-class Character{
-    public static void main(String[] args) throws IOException {
-        System.out.println("캐릭터이름을 입력해주세요");
-        Scanner sc= new Scanner(System.in);
-        String characterName = sc.nextLine(); //System.out.println(nickName);
 
-        String characterEncode = URLEncoder.encode(characterName,"UTF-8");
+class Character{
+    public static HashMap<String,String> createCharacterInfo () throws IOException {
         String url="https://api.neople.co.kr/cy/characters?apikey=tqaHURDFgZyZ9NL3j3Lq08GuudRMiRNc";
         JSONObject character=JSP.readJsonFromUrl(url);
 
         JSONArray parse_item =(JSONArray)character.get("rows");
         JSONObject item;
+        HashMap<String,String> characterMap = new HashMap<>();
+
         for(int i=0;i<parse_item.size();i++){
             item=(JSONObject) parse_item.get(i);
             String ci=(String)item.get("characterId");
             String cn=(String)item.get("characterName");
-            if(characterName.equals(cn)){
-                System.out.println("characterId : "+ci);
-                System.out.println("characterName : "+cn);
-                break;
-            }
+            characterMap.put(ci,cn);
         }
-        System.out.println("--------------------");
+        return characterMap;
     }
 }
- */
+
