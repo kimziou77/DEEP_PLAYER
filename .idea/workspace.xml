@@ -7,23 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93d29fbe-8d20-4232-bec4-7435a0648cb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/src/subin/character_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/src/subin/character_DAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/src/subin/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/src/subin/Info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/src/subin/PlayerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/src/subin/PlayerDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/subin/Info.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/subin/Info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/subin/PlayerDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/WEB-INF/classes/subin/PlayerDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/result.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jsp/subin/Info.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jsp/subin/Info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jsp/subin/PlayerDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jsp/subin/PlayerDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/src/subin/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/src/subin/Info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/src/subin/PlayerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/src/subin/PlayerDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/result.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -260,6 +244,8 @@
       <workItem from="1584705624567" duration="3225000" />
       <workItem from="1584743940962" duration="4519000" />
       <workItem from="1584752275729" duration="193000" />
+      <workItem from="1584758540082" duration="2878000" />
+      <workItem from="1585055344863" duration="95000" />
     </task>
     <servers />
   </component>
