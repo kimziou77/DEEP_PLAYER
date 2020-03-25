@@ -32,7 +32,7 @@
 
  ### 서비스구조  
  
-<img src="./img/main.png" height="auto">
+<img src="./img/main.png" width="70%" height="auto">
 
 1. 닉네임을 입력한다.  
    
@@ -46,8 +46,14 @@
 
 ---
 - 뉴비일경우
-<img src="./img/SEARCH.png" height="auto">
+
+<img src="./img/SEARCH.png" width="70%" height="auto">
+
+<br>
+
+<br>
 
 - else
-<img src="./img/SEARCH2.png" height="auto">
+  
+<img src="./img/SEARCH2.png" width="70%" height="auto">
  
