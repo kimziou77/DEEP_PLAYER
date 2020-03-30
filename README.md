@@ -13,8 +13,6 @@
 - Intellij
 - Tomcat
 - MySQL
-
-### 사용기술
 - JAVA  
 - JSP  
 - Cyphers OpenAPI
