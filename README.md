@@ -4,7 +4,7 @@
 - ReadMe 좀더이쁘게 수정 - 다른분들의 프로젝트 보고서 참고해볼것
 
 ### 제작기간
- 2020.03.16. ~ 2020.03.18
+ 2020.03.16. ~ 2020.03.18.
 
 ### 기획개요  
 
@@ -14,10 +14,10 @@
 - Windows10
 - Intellij
 - Tomcat
-- MySQL
 
 ### 사용기술
 - JAVA  
+- MySQL
 - JSP  
 - Cyphers OpenAPI
 
