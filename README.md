@@ -14,8 +14,6 @@
 - Intellij
 - Tomcat
 - MySQL
-- JAVA  
-- MySQL
 - JSP  
 - Cyphers OpenAPI
 
